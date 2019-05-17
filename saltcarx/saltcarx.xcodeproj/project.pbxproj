@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32F0CDD228E40DC00AB658D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F0CDC228E40DC00AB658D /* AppDelegate.swift */; };
+		D32F0CDF228E40DC00AB658D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F0CDE228E40DC00AB658D /* ViewController.swift */; };
+		D32F0CE2228E40DC00AB658D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32F0CE0228E40DC00AB658D /* Main.storyboard */; };
+		D32F0CE4228E40DD00AB658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32F0CE3228E40DD00AB658D /* Assets.xcassets */; };
+		D32F0CE7228E40DD00AB658D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32F0CE5228E40DD00AB658D /* LaunchScreen.storyboard */; };
+		D32F0CEC228E40DD00AB658D /* saltcarx WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D32F0CEB228E40DD00AB658D /* saltcarx WatchKit App.app */; };
+		D32F0CF2228E40DD00AB658D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32F0CF0228E40DD00AB658D /* Interface.storyboard */; };
+		D32F0CF4228E40DE00AB658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32F0CF3228E40DE00AB658D /* Assets.xcassets */; };
+		D32F0CFB228E40DE00AB658D /* saltcarx WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D32F0CFA228E40DE00AB658D /* saltcarx WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D32F0D00228E40DE00AB658D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F0CFF228E40DE00AB658D /* InterfaceController.swift */; };
+		D32F0D02228E40DE00AB658D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F0D01228E40DE00AB658D /* ExtensionDelegate.swift */; };
+		D32F0D04228E40DF00AB658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32F0D03228E40DF00AB658D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32F0CED228E40DD00AB658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32F0CD1228E40DC00AB658D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32F0CEA228E40DD00AB658D;
+			remoteInfo = "saltcarx WatchKit App";
+		};
+		D32F0CFC228E40DE00AB658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32F0CD1228E40DC00AB658D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32F0CF9228E40DE00AB658D;
+			remoteInfo = "saltcarx WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D32F0D0B228E40DF00AB658D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D32F0CFB228E40DE00AB658D /* saltcarx WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32F0D0F228E40DF00AB658D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D32F0CEC228E40DD00AB658D /* saltcarx WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D32F0CD9228E40DC00AB658D /* saltcarx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saltcarx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32F0CDC228E40DC00AB658D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32F0CDE228E40DC00AB658D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D32F0CE1228E40DC00AB658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32F0CE3228E40DD00AB658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32F0CE6228E40DD00AB658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32F0CE8228E40DD00AB658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32F0CEB228E40DD00AB658D /* saltcarx WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saltcarx WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32F0CF1228E40DD00AB658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D32F0CF3228E40DE00AB658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32F0CF5228E40DE00AB658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32F0CFA228E40DE00AB658D /* saltcarx WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "saltcarx WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32F0CFF228E40DE00AB658D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D32F0D01228E40DE00AB658D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D32F0D03228E40DF00AB658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32F0D05228E40DF00AB658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32F0CD6228E40DC00AB658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32F0CF7228E40DE00AB658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32F0CD0228E40DC00AB658D = {
+			isa = PBXGroup;
+			children = (
+				D32F0CDB228E40DC00AB658D /* saltcarx */,
+				D32F0CEF228E40DD00AB658D /* saltcarx WatchKit App */,
+				D32F0CFE228E40DE00AB658D /* saltcarx WatchKit Extension */,
+				D32F0CDA228E40DC00AB658D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32F0CDA228E40DC00AB658D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32F0CD9228E40DC00AB658D /* saltcarx.app */,
+				D32F0CEB228E40DD00AB658D /* saltcarx WatchKit App.app */,
+				D32F0CFA228E40DE00AB658D /* saltcarx WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32F0CDB228E40DC00AB658D /* saltcarx */ = {
+			isa = PBXGroup;
+			children = (
+				D32F0CDC228E40DC00AB658D /* AppDelegate.swift */,
+				D32F0CDE228E40DC00AB658D /* ViewController.swift */,
+				D32F0CE0228E40DC00AB658D /* Main.storyboard */,
+				D32F0CE3228E40DD00AB658D /* Assets.xcassets */,
+				D32F0CE5228E40DD00AB658D /* LaunchScreen.storyboard */,
+				D32F0CE8228E40DD00AB658D /* Info.plist */,
+			);
+			path = saltcarx;
+			sourceTree = "<group>";
+		};
+		D32F0CEF228E40DD00AB658D /* saltcarx WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D32F0CF0228E40DD00AB658D /* Interface.storyboard */,
+				D32F0CF3228E40DE00AB658D /* Assets.xcassets */,
+				D32F0CF5228E40DE00AB658D /* Info.plist */,
+			);
+			path = "saltcarx WatchKit App";
+			sourceTree = "<group>";
+		};
+		D32F0CFE228E40DE00AB658D /* saltcarx WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D32F0CFF228E40DE00AB658D /* InterfaceController.swift */,
+				D32F0D01228E40DE00AB658D /* ExtensionDelegate.swift */,
+				D32F0D03228E40DF00AB658D /* Assets.xcassets */,
+				D32F0D05228E40DF00AB658D /* Info.plist */,
+			);
+			path = "saltcarx WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32F0CD8228E40DC00AB658D /* saltcarx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32F0D10228E40DF00AB658D /* Build configuration list for PBXNativeTarget "saltcarx" */;
+			buildPhases = (
+				D32F0CD5228E40DC00AB658D /* Sources */,
+				D32F0CD6228E40DC00AB658D /* Frameworks */,
+				D32F0CD7228E40DC00AB658D /* Resources */,
+				D32F0D0F228E40DF00AB658D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32F0CEE228E40DD00AB658D /* PBXTargetDependency */,
+			);
+			name = saltcarx;
+			productName = saltcarx;
+			productReference = D32F0CD9228E40DC00AB658D /* saltcarx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32F0CEA228E40DD00AB658D /* saltcarx WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32F0D0C228E40DF00AB658D /* Build configuration list for PBXNativeTarget "saltcarx WatchKit App" */;
+			buildPhases = (
+				D32F0CE9228E40DD00AB658D /* Resources */,
+				D32F0D0B228E40DF00AB658D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32F0CFD228E40DE00AB658D /* PBXTargetDependency */,
+			);
+			name = "saltcarx WatchKit App";
+			productName = "saltcarx WatchKit App";
+			productReference = D32F0CEB228E40DD00AB658D /* saltcarx WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D32F0CF9228E40DE00AB658D /* saltcarx WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32F0D08228E40DF00AB658D /* Build configuration list for PBXNativeTarget "saltcarx WatchKit Extension" */;
+			buildPhases = (
+				D32F0CF6228E40DE00AB658D /* Sources */,
+				D32F0CF7228E40DE00AB658D /* Frameworks */,
+				D32F0CF8228E40DE00AB658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "saltcarx WatchKit Extension";
+			productName = "saltcarx WatchKit Extension";
+			productReference = D32F0CFA228E40DE00AB658D /* saltcarx WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32F0CD1228E40DC00AB658D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Talha Salt";
+				TargetAttributes = {
+					D32F0CD8228E40DC00AB658D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D32F0CEA228E40DD00AB658D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D32F0CF9228E40DE00AB658D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D32F0CD4228E40DC00AB658D /* Build configuration list for PBXProject "saltcarx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32F0CD0228E40DC00AB658D;
+			productRefGroup = D32F0CDA228E40DC00AB658D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32F0CD8228E40DC00AB658D /* saltcarx */,
+				D32F0CEA228E40DD00AB658D /* saltcarx WatchKit App */,
+				D32F0CF9228E40DE00AB658D /* saltcarx WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32F0CD7228E40DC00AB658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F0CE7228E40DD00AB658D /* LaunchScreen.storyboard in Resources */,
+				D32F0CE4228E40DD00AB658D /* Assets.xcassets in Resources */,
+				D32F0CE2228E40DC00AB658D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32F0CE9228E40DD00AB658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F0CF4228E40DE00AB658D /* Assets.xcassets in Resources */,
+				D32F0CF2228E40DD00AB658D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32F0CF8228E40DE00AB658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F0D04228E40DF00AB658D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32F0CD5228E40DC00AB658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F0CDF228E40DC00AB658D /* ViewController.swift in Sources */,
+				D32F0CDD228E40DC00AB658D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32F0CF6228E40DE00AB658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F0D02228E40DE00AB658D /* ExtensionDelegate.swift in Sources */,
+				D32F0D00228E40DE00AB658D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32F0CEE228E40DD00AB658D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32F0CEA228E40DD00AB658D /* saltcarx WatchKit App */;
+			targetProxy = D32F0CED228E40DD00AB658D /* PBXContainerItemProxy */;
+		};
+		D32F0CFD228E40DE00AB658D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32F0CF9228E40DE00AB658D /* saltcarx WatchKit Extension */;
+			targetProxy = D32F0CFC228E40DE00AB658D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32F0CE0228E40DC00AB658D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32F0CE1228E40DC00AB658D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32F0CE5228E40DD00AB658D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32F0CE6228E40DD00AB658D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D32F0CF0228E40DD00AB658D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32F0CF1228E40DD00AB658D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32F0D06228E40DF00AB658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32F0D07228E40DF00AB658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32F0D09228E40DF00AB658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DCB66B369;
+				INFOPLIST_FILE = "saltcarx WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = talhaslt.saltcarx.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		D32F0D0A228E40DF00AB658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DCB66B369;
+				INFOPLIST_FILE = "saltcarx WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = talhaslt.saltcarx.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		D32F0D0D228E40DF00AB658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DCB66B369;
+				IBSC_MODULE = saltcarx_WatchKit_Extension;
+				INFOPLIST_FILE = "saltcarx WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = talhaslt.saltcarx.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		D32F0D0E228E40DF00AB658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DCB66B369;
+				IBSC_MODULE = saltcarx_WatchKit_Extension;
+				INFOPLIST_FILE = "saltcarx WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = talhaslt.saltcarx.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		D32F0D11228E40DF00AB658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DCB66B369;
+				INFOPLIST_FILE = saltcarx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = talhaslt.saltcarx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D32F0D12228E40DF00AB658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DCB66B369;
+				INFOPLIST_FILE = saltcarx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = talhaslt.saltcarx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32F0CD4228E40DC00AB658D /* Build configuration list for PBXProject "saltcarx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32F0D06228E40DF00AB658D /* Debug */,
+				D32F0D07228E40DF00AB658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32F0D08228E40DF00AB658D /* Build configuration list for PBXNativeTarget "saltcarx WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32F0D09228E40DF00AB658D /* Debug */,
+				D32F0D0A228E40DF00AB658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32F0D0C228E40DF00AB658D /* Build configuration list for PBXNativeTarget "saltcarx WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32F0D0D228E40DF00AB658D /* Debug */,
+				D32F0D0E228E40DF00AB658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32F0D10228E40DF00AB658D /* Build configuration list for PBXNativeTarget "saltcarx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32F0D11228E40DF00AB658D /* Debug */,
+				D32F0D12228E40DF00AB658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32F0CD1228E40DC00AB658D /* Project object */;
+}
